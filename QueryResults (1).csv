@@ -1,0 +1,1043 @@
+Title,Body,Tags,Id,Score,ViewCount,FavoriteCount,AnswerCount
+"What does ** (double star/asterisk) and * (star/asterisk) do for parameters?","<p>What do <code>*args</code> and <code>**kwargs</code> mean?</p>
+<pre><code>def foo(x, y, *args):
+def bar(x, y, **kwargs):
+</code></pre>
+","<python><syntax><parameter-passing><variadic-functions><argument-unpacking>","36901","3101","1132689","1260","24"
+"What and where are the stack and heap?","<ul>
+<li>What are the stack and heap?</li>
+<li>Where are they located physically in a computer's memory?</li>
+<li>To what extent are they controlled by the OS or language run-time?</li>
+<li>What is their scope?</li>
+<li>What determines their sizes?</li>
+<li>What makes one faster?</li>
+</ul>
+","<memory-management><stack><language-agnostic><dynamic-memory-allocation><heap-memory>","79923","9103","1779545","5258","31"
+"How do I execute a program or call a system command?","<p>How do I call an external command within Python as if I'd typed it in a shell or command prompt?</p>
+","<python><shell><terminal><subprocess><command>","89228","5780","4108237","1705","64"
+"What is the difference between public, protected, package-private and private in Java?","<p>In Java, are there clear rules on when to use each of access modifiers, namely the default (package private), <code>public</code>, <code>protected</code> and <code>private</code>, while making <code>class</code> and <code>interface</code> and dealing with inheritance?</p>
+","<java><private><public><protected><access-modifiers>","215497","3535","2430809","1470","30"
+"How can I safely create a nested directory?","<p>How do I check if the directory that a file is going to be written to exists, and if it does not, create the directory using Python?</p>
+","<python><exception><path><directory><operating-system>","273192","5299","3364993","1099","29"
+"How to close/hide the Android soft keyboard programmatically?","<p>I have an <code>EditText</code> and a <code>Button</code> in my layout.</p>
+<p>After writing in the edit field and clicking on the <code>Button</code>, I want to hide the virtual keyboard when touching it outside the keyboard. I assume that this is a simple piece of code, but where can I find an example of it?</p>
+","<android><android-edittext><android-softkeyboard><android-input-method><soft-keyboard>","1109022","4235","1749730","1117","128"
+"How do I force ""git pull"" to overwrite local files?","<p>How do I force an overwrite of local files on a <code>git pull</code>? My local repository contains a file of the same filename as on the server.</p>
+<blockquote>
+<p>error: Untracked working tree file 'example.txt' would be overwritten by merge</p>
+</blockquote>
+","<git><version-control><overwrite><git-pull><git-fetch>","1125968","8893","6971036","3065","49"
+"AngularJS: Service vs provider vs factory","<p>What are the differences between a <code>Service</code>, <code>Provider</code> and <code>Factory</code> in AngularJS?</p>
+","<angularjs><dependency-injection><angularjs-service><angularjs-factory><angularjs-provider>","15666048","3390","780400","1940","30"
+"The definitive guide to form-based website authentication","<blockquote>
+<h4>Moderator note:</h4>
+<p>This question is not a good fit for our question and answer format with the <a href=""/help/on-topic"">topicality rules</a> which currently apply for Stack Overflow. We normally use a &quot;historical lock&quot; for such questions where the content still has value. However, the answers on this question are actively maintained and a historical lock doesn't permit editing of the answers. As such, a &quot;wiki answer&quot; lock has been applied to allow the answers to be edited. You should assume the topicality issues which are normally handled by a historical lock are present (i.e. this question not a good example of an on-topic question for Stack Overflow).</p>
+</blockquote>
+<h2>Form-based authentication for websites</h2>
+<p>We believe that Stack Overflow should not just be a resource for very specific technical questions, but also for general guidelines on how to solve variations on common problems. &quot;Form based authentication for websites&quot; should be a fine topic for such an experiment.</p>
+<h3>It should include topics such as:</h3>
+<ul>
+<li>How to log in</li>
+<li>How to log out</li>
+<li>How to remain logged in</li>
+<li>Managing cookies (including recommended settings)</li>
+<li>SSL/HTTPS encryption</li>
+<li>How to store passwords</li>
+<li>Using secret questions</li>
+<li>Forgotten username/password functionality</li>
+<li>Use of <a href=""https://en.wikipedia.org/wiki/Cryptographic_nonce"" rel=""nofollow noreferrer"">nonces</a> to prevent <a href=""https://en.wikipedia.org/wiki/Cross-site_request_forgery"" rel=""nofollow noreferrer"">cross-site request forgeries (CSRF)</a></li>
+<li><a href=""http://openid.net/"" rel=""nofollow noreferrer"">OpenID</a></li>
+<li>&quot;Remember me&quot; checkbox</li>
+<li>Browser autocompletion of usernames and passwords</li>
+<li>Secret URLs (public <a href=""https://en.wikipedia.org/wiki/Uniform_Resource_Locator"" rel=""nofollow noreferrer"">URL</a> protected by digest)</li>
+<li>Checking password strength</li>
+<li>E-mail validation</li>
+<li><em>and much more about</em> <a href=""http://en.wikipedia.org/wiki/Form-based_authentication"" rel=""nofollow noreferrer"">form based authentication</a>...</li>
+</ul>
+<h3>It should not include things like:</h3>
+<ul>
+<li>Roles and authorization</li>
+<li>HTTP basic authentication</li>
+</ul>
+<h3>Please help us by:</h3>
+<ol>
+<li>Suggesting subtopics</li>
+<li>Submitting good articles about this subject</li>
+<li>Editing the official answer</li>
+</ol>
+","<forms><http><security><authentication><language-agnostic>","549","5520","656344","6745","11"
+"How does database indexing work?","<p>Given that indexing is so important as your data set increases in size, can someone explain how indexing works at a database-agnostic level?</p>
+
+<p>For information on queries to index a field, check out <a href=""https://stackoverflow.com/questions/1156/"">How do I index a database column</a>.</p>
+","<sql><database><performance><indexing><database-indexes>","1108","2807","1056616","1751","7"
+"What are MVP and MVC and what is the difference?","<p>When looking beyond the <a href=""https://en.wikipedia.org/wiki/Rapid_application_development"" rel=""noreferrer"">RAD</a> (drag-drop and configure) way of building user interfaces that many tools encourage you are likely to come across three design patterns called <a href=""http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"" rel=""noreferrer"">Model-View-Controller</a>, <a href=""http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter"" rel=""noreferrer"">Model-View-Presenter</a> and <a href=""http://en.wikipedia.org/wiki/Model_View_ViewModel"" rel=""noreferrer"">Model-View-ViewModel</a>. My question has three parts to it:</p>
+
+<ol>
+<li>What issues do these patterns address?</li>
+<li>How are they similar?</li>
+<li>How are they different?</li>
+</ol>
+","<user-interface><model-view-controller><design-patterns><terminology><mvp>","2056","2317","549768","1358","24"
+"How do I get a YouTube video thumbnail from the YouTube API?","<p>If I have a YouTube video URL, is there any way to use PHP and cURL to get the associated thumbnail from the YouTube API?</p>
+","<php><curl><youtube><youtube-api><youtube-data-api>","2068344","2710","1907760","1242","32"
+"How do I UPDATE from a SELECT in SQL Server?","<p>In <strong>SQL Server</strong>, it is possible to insert rows into a table with an <code>INSERT.. SELECT</code> statement:</p>
+<pre><code>INSERT INTO Table (col1, col2, col3)
+SELECT col1, col2, col3 
+FROM other_table 
+WHERE sql = 'cool'
+</code></pre>
+<p>Is it also possible to <em>update</em> a table with <code>SELECT</code>? I have a temporary table containing the values and would like to update another table using those values. Perhaps something like this:</p>
+<pre><code>UPDATE Table SET col1, col2
+SELECT col1, col2 
+FROM other_table 
+WHERE sql = 'cool'
+WHERE Table.id = other_table.id
+</code></pre>
+","<sql><sql-server><tsql><select><sql-update>","2334712","4108","4971325","1142","37"
+"How do servlets work? Instantiation, sessions, shared variables and multithreading","<p>Suppose, I have a webserver which holds numerous servlets. For information passing among those servlets I am setting session and instance variables.</p>
+
+<p>Now, if 2 or more users send request to this server then what happens to the session variables?<br>
+Will they all be common for all the users or they will be different for each user?<br>
+If they are different, then how was the server able to differentiate between different users?</p>
+
+<p>One more similar question, if there are <code>n</code> users accessing a particular servlet, then this servlet gets instantiated only the first time the first user accessed it or does it get instantiated for all the users separately?<br>
+In other words, what happens to the instance variables?</p>
+","<java><multithreading><servlets><session-variables><instance-variables>","3106452","1234","317709","1330","8"
+"What is the copy-and-swap idiom?","<p>What is the copy-and-swap idiom and when should it be used? What problems does it solve? Does it change for C++11?</p>
+<p>Related:</p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/276173/what-are-your-favorite-c-coding-style-idioms/2034447#2034447"">What are your favorite C++ Coding Style idioms:  Copy-swap</a></li>
+<li><a href=""https://stackoverflow.com/questions/1734628/copy-constructor-and-operator-overload-in-c-is-a-common-function-possible/1734640#1734640"">Copy constructor and = operator overload in C++: is a common function possible?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2143787/what-is-copy-elision-and-how-it-optimizes-copy-and-swap-idiom"">What is copy elision and how it optimizes copy-and-swap idiom</a></li>
+<li><a href=""https://stackoverflow.com/questions/255612/c-dynamically-allocating-an-array-of-objects/255744#255744"">C++: dynamically allocating an array of objects?</a></li>
+</ul>
+","<c++><copy-constructor><assignment-operator><c++-faq><copy-and-swap>","3279543","2280","443174","1956","5"
+"What are the options for storing hierarchical data in a relational database?","<p><strong>Good Overviews</strong></p>
+<p>Generally speaking, you're making a decision between fast read times (for example, nested set) or fast write times (adjacency list). Usually, you end up with a combination of the options below that best fit your needs. The following provides some in-depth reading:</p>
+<ul>
+<li><a href=""http://vadimtropashko.wordpress.com/2008/08/09/one-more-nested-intervals-vs-adjacency-list-comparison/"" rel=""noreferrer"">One more Nested Intervals vs. Adjacency List comparison</a>: <em>the best comparison</em> of Adjacency List, Materialized Path, Nested Set, and Nested Interval I've found.</li>
+<li><a href=""http://www.slideshare.net/billkarwin/models-for-hierarchical-data"" rel=""noreferrer"">Models for hierarchical data</a>: slides with good explanations of tradeoffs and example usage</li>
+<li><a href=""http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/"" rel=""noreferrer"">Representing hierarchies in MySQL</a>: very good overview of Nested Set in particular</li>
+<li><a href=""http://troels.arvin.dk/db/rdbms/links/#hierarchical"" rel=""noreferrer"">Hierarchical data in RDBMSs</a>: a most comprehensive and well-organized set of links I've seen, but not much in the way of explanation</li>
+</ul>
+<p><strong>Options</strong></p>
+<p>Ones I am aware of and general features:</p>
+<ol>
+<li><a href=""http://en.wikipedia.org/wiki/Adjacency_list"" rel=""noreferrer"">Adjacency List</a>:</li>
+</ol>
+<ul>
+<li>Columns: ID, ParentID</li>
+<li>Easy to implement.</li>
+<li>Cheap node moves, inserts, and deletes.</li>
+<li>Expensive to find the level, ancestry &amp; descendants, path</li>
+<li>Avoid N+1 via <a href=""http://en.wikipedia.org/wiki/Common_table_expressions"" rel=""noreferrer"">Common Table Expressions</a> in databases that support them</li>
+</ul>
+<ol start=""2"">
+<li><a href=""http://en.wikipedia.org/wiki/Nested_set_model"" rel=""noreferrer"">Nested Set</a> (a.k.a <a href=""https://www.caktusgroup.com/blog/2016/01/04/modified-preorder-tree-traversal-django/"" rel=""noreferrer"">Modified Preorder Tree Traversal</a>)</li>
+</ol>
+<ul>
+<li>Columns: Left, Right</li>
+<li>Cheap ancestry, descendants</li>
+<li>Very expensive <code>O(n/2)</code> moves, inserts, deletes due to volatile encoding</li>
+</ul>
+<ol start=""3"">
+<li><a href=""https://www.informationweek.com/software/information-management/kimball-university-five-alternatives-for-better-employee-dimension-modeling/d/d-id/1082326"" rel=""noreferrer"">Bridge Table</a> (a.k.a. <a href=""http://dirtsimple.org/2010/11/simplest-way-to-do-tree-based-queries.html"" rel=""noreferrer"">Closure Table /w triggers</a>)</li>
+</ol>
+<ul>
+<li>Uses separate join table with ancestor, descendant, depth (optional)</li>
+<li>Cheap ancestry and descendants</li>
+<li>Writes costs <code>O(log n)</code> (size of the subtree) for insert, updates, deletes</li>
+<li>Normalized encoding: good for RDBMS statistics &amp; query planner in joins</li>
+<li>Requires multiple rows per node</li>
+</ul>
+<ol start=""4"">
+<li><a href=""https://web.archive.org/web/20150909165001/http://www.ferdychristant.com/blog//articles/DOMM-7QJPM7"" rel=""noreferrer"">Lineage Column</a> (a.k.a. <a href=""http://communities.bmc.com/communities/docs/DOC-9902"" rel=""noreferrer"">Materialized Path</a>, Path Enumeration)</li>
+</ol>
+<ul>
+<li>Column: lineage (e.g. /parent/child/grandchild/etc...)</li>
+<li>Cheap descendants via prefix query (e.g. <code>LEFT(lineage, #) = '/enumerated/path'</code>)</li>
+<li>Writes costs <code>O(log n)</code> (size of the subtree) for insert, updates, deletes</li>
+<li>Non-relational: relies on Array datatype or serialized string format</li>
+</ul>
+<ol start=""5"">
+<li><a href=""https://sigmodrecord.org/publications/sigmodRecord/0506/p47-article-tropashko.pdf"" rel=""noreferrer"">Nested Intervals</a></li>
+</ol>
+<ul>
+<li>Like nested set, but with real/float/decimal so that the encoding isn't volatile (inexpensive move/insert/delete)</li>
+<li>Has real/float/decimal representation/precision issues</li>
+<li><a href=""http://vadimtropashko.files.wordpress.com/2011/07/ch5.pdf"" rel=""noreferrer"">Matrix encoding variant</a> adds ancestor encoding (materialized path) for &quot;free&quot;, but with the added trickiness of linear algebra.</li>
+</ul>
+<ol start=""6"">
+<li><a href=""http://evolt.org/node/4047"" rel=""noreferrer"">Flat Table</a></li>
+</ol>
+<ul>
+<li>A modified Adjacency List that adds a Level and Rank (e.g. ordering) column to each record.</li>
+<li>Cheap to iterate/paginate over</li>
+<li>Expensive move and delete</li>
+<li>Good Use: threaded discussion - forums / blog comments</li>
+</ul>
+<ol start=""7"">
+<li><a href=""https://stackoverflow.com/a/6802687/684229"">Multiple lineage columns</a></li>
+</ol>
+<ul>
+<li>Columns: one for each lineage level, refers to all the parents up to the root, levels down from the item's level are set to NULL</li>
+<li>Cheap ancestors, descendants, level</li>
+<li>Cheap insert, delete, move of the leaves</li>
+<li>Expensive insert, delete, move of the internal nodes</li>
+<li>Hard limit to how deep the hierarchy can be</li>
+</ul>
+<p><strong>Database Specific Notes</strong></p>
+<p><em>MySQL</em></p>
+<ul>
+<li><a href=""http://explainextended.com/2009/09/29/adjacency-list-vs-nested-sets-mysql/"" rel=""noreferrer"">Use session variables for Adjacency List</a></li>
+</ul>
+<p><em>Oracle</em></p>
+<ul>
+<li>Use <a href=""http://www.ypl.com/oracle/sql/hierarchical_queries/html_deep/index.html"" rel=""noreferrer"">CONNECT BY</a> to traverse Adjacency Lists</li>
+</ul>
+<p><em>PostgreSQL</em></p>
+<ul>
+<li><a href=""http://www.postgresql.org/docs/current/static/ltree.html"" rel=""noreferrer"">ltree datatype</a> for Materialized Path</li>
+</ul>
+<p><em>SQL Server</em></p>
+<ul>
+<li><a href=""http://msdn.microsoft.com/en-us/magazine/cc794278.aspx"" rel=""noreferrer"">General summary</a></li>
+<li>2008 offers <a href=""http://msdn.microsoft.com/en-us/library/bb677290.aspx"" rel=""noreferrer"">HierarchyId</a> data type that appears to help with the Lineage Column approach and expand the depth that can be represented.</li>
+</ul>
+","<sql><database><tree><relational-database><hierarchical-data>","4048151","1529","309519","1307","7"
+"Is Java ""pass-by-reference"" or ""pass-by-value""?","<p>I always thought Java uses <strong>pass-by-reference</strong>.</p>
+<p>However, I've seen <a href=""http://javadude.com/articles/passbyvalue.htm"" rel=""noreferrer"">a blog post</a> that claims that Java uses <strong>pass-by-value</strong>.</p>
+<p>I don't think I understand the distinction they're making.</p>
+<p>What is the explanation?</p>
+","<java><methods><parameter-passing><pass-by-reference><pass-by-value>","40480","7518","2482793","3384","91"
+"What are metaclasses in Python?","<p>What are metaclasses? What are they used for?</p>
+","<python><oop><metaclass><python-class><python-datamodel>","100003","6938","1042132","4352","24"
+"What is a smart pointer and when should I use one?","<p>What is a smart pointer and when should I use one?</p>
+","<c++><pointers><c++11><smart-pointers><c++-faq>","106508","2084","683817","1055","14"
+"How do JavaScript closures work?","<p>How would you explain JavaScript closures to someone with a knowledge of the concepts they consist of (for example functions, variables and the like), but does not understand closures themselves?</p>
+
+<p>I have seen <a href=""http://en.wikipedia.org/wiki/Scheme_%28programming_language%29"" rel=""noreferrer"">the Scheme example</a> given on Wikipedia, but unfortunately it did not help.</p>
+","<javascript><function><variables><scope><closures>","111102","7623","1584739","6019","86"
+"How can I upload files asynchronously with jQuery?","<p>I would like to upload a file asynchronously with jQuery. </p>
+
+<p><div class=""snippet"" data-lang=""js"" data-hide=""false"" data-console=""true"" data-babel=""false"">
+<div class=""snippet-code"">
+<pre class=""snippet-code-js lang-js prettyprint-override""><code>$(document).ready(function () {
+    $(""#uploadbutton"").click(function () {
+        var filename = $(""#file"").val();
+
+        $.ajax({
+            type: ""POST"",
+            url: ""addFile.do"",
+            enctype: 'multipart/form-data',
+            data: {
+                file: filename
+            },
+            success: function () {
+                alert(""Data Uploaded: "");
+            }
+        });
+    });
+});</code></pre>
+<pre class=""snippet-code-html lang-html prettyprint-override""><code>&lt;script src=""https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js""&gt;&lt;/script&gt;
+&lt;span&gt;File&lt;/span&gt;
+&lt;input type=""file"" id=""file"" name=""file"" size=""10""/&gt;
+&lt;input id=""uploadbutton"" type=""button"" value=""Upload""/&gt;</code></pre>
+</div>
+</div>
+</p>
+
+<p>Instead of the file being uploaded, I am only getting the filename. What can I do to fix this problem?</p>
+","<javascript><jquery><ajax><asynchronous><xmlhttprequest>","166221","3098","1465105","1480","34"
+"Why is char[] preferred over String for passwords?","<p>In Swing, the password field has a <code>getPassword()</code> (returns <code>char[]</code>) method instead of the usual <code>getText()</code> (returns <code>String</code>) method. Similarly, I have come across a suggestion not to use <code>String</code> to handle passwords.</p>
+
+<p>Why does <code>String</code> pose a threat to security when it comes to passwords?
+It feels inconvenient to use <code>char[]</code>.</p>
+","<java><string><security><passwords><char>","8881291","3745","481903","1008","18"
+"Prefer composition over inheritance?","<p>Why prefer composition over inheritance?  What trade-offs are there for each approach?  When should you choose inheritance over composition?</p>
+","<language-agnostic><oop><inheritance><composition><aggregation>","49002","1885","424096","1013","34"
+"How do we control web page caching, across all browsers?","<p>Our investigations have shown us that not all browsers respect the HTTP cache directives in a uniform manner.</p>
+
+<p>For security reasons we do not want certain pages in our application to be cached, <strong>ever,</strong> by the web browser. This must work for at least the following browsers:</p>
+
+<ul>
+<li>Internet Explorer 6+</li>
+<li>Firefox 1.5+</li>
+<li>Safari 3+</li>
+<li>Opera 9+</li>
+<li>Chrome</li>
+</ul>
+
+<p>Our requirement came from a security test. After logging out from our website you could press the back button and view cached pages.</p>
+","<http><caching><https><http-headers><cross-browser>","49547","1803","1165637","1165","29"
+"How can I prevent SQL injection in PHP?","<p>If user input is inserted without modification into an SQL query, then the application becomes vulnerable to <a href=""https://stackoverflow.com/a/332367/"">SQL injection</a>, like in the following example:</p>
+
+<pre class=""lang-php prettyprint-override""><code>$unsafe_variable = $_POST['user_input']; 
+
+mysql_query(""INSERT INTO `table` (`column`) VALUES ('$unsafe_variable')"");
+</code></pre>
+
+<p>That's because the user can input something like <code>value'); DROP TABLE table;--</code>, and the query becomes:</p>
+
+<pre><code>INSERT INTO `table` (`column`) VALUES('value'); DROP TABLE table;--')
+</code></pre>
+
+<p>What can be done to prevent this from happening?</p>
+","<php><mysql><sql><security><sql-injection>","60174","2773","2059948","3804","28"
+"What does the explicit keyword mean?","<p>What does the <code>explicit</code> keyword mean in C++?</p>
+","<c++><constructor><explicit><c++-faq><explicit-constructor>","121162","3477","1084723","1090","11"
+"What is the difference between a URI, a URL, and a URN?","<p>What is the difference between a <a href=""http://en.wikipedia.org/wiki/Uniform_Resource_Locator"" rel=""noreferrer""><strong>URL</strong></a>, a <a href=""http://en.wikipedia.org/wiki/Uniform_Resource_Identifier"" rel=""noreferrer""><strong>URI</strong></a>, and a <a href=""http://en.wikipedia.org/wiki/Uniform_Resource_Name"" rel=""noreferrer""><strong>URN</strong></a>?</p>
+","<http><url><uri><urn><rfc3986>","176264","4817","1266391","1306","31"
+"Which equals operator (== vs ===) should be used in JavaScript comparisons?","<p>I'm using <a href=""http://en.wikipedia.org/wiki/JSLint"" rel=""noreferrer"">JSLint</a> to go through JavaScript, and it's returning many suggestions to replace <code>==</code> (two equals signs) with <code>===</code> (three equals signs) when doing things like comparing <code>idSele_UNVEHtype.value.length == 0</code> inside of an <code>if</code> statement.</p>
+
+<p>Is there a performance benefit to replacing <code>==</code> with <code>===</code>? </p>
+
+<p>Any performance improvement would be welcomed as many comparison operators exist.</p>
+
+<p>If no type conversion takes place, would there be a performance gain over <code>==</code>?</p>
+","<javascript><operators><equality><equality-operator><identity-operator>","359494","5652","2038231","1989","48"
+"What does if __name__ == ""__main__"": do?","<p>What does this do, and why should one include the <code>if</code> statement?</p>
+<pre><code>if __name__ == &quot;__main__&quot;:
+    print(&quot;Hello, World!&quot;)
+</code></pre>
+<hr />
+<p><sub>This question explains what the code does and how it works. If you are trying to close a question where someone should be using this idiom and isn't, consider closing as a duplicate of <a href=""https://stackoverflow.com/questions/6523791"">Why is Python running my module when I import it, and how do I stop it?</a> instead.</sub></p>
+","<python><namespaces><program-entry-point><python-module><idioms>","419163","7690","4188643","3248","42"
+"What is a plain English explanation of ""Big O"" notation?","<p>I'd prefer as little formal definition as possible and simple mathematics.</p>
+","<algorithm><complexity-theory><computer-science><big-o><time-complexity>","487258","5255","784794","4143","43"
+"Which ""href"" value should I use for JavaScript links, ""#"" or ""javascript:void(0)""?","<p>The following are two methods of building a link that has the sole purpose of running JavaScript code. Which is better, in terms of functionality, page load speed, validation purposes, etc.?</p>
+
+<p><div class=""snippet"" data-lang=""js"" data-hide=""false"" data-console=""false"" data-babel=""false"">
+<div class=""snippet-code"">
+<pre class=""snippet-code-js lang-js prettyprint-override""><code>function myJsFunc() {
+    alert(""myJsFunc"");
+}</code></pre>
+<pre class=""snippet-code-html lang-html prettyprint-override""><code>&lt;a href=""#"" onclick=""myJsFunc();""&gt;Run JavaScript Code&lt;/a&gt;</code></pre>
+</div>
+</div>
+</p>
+
+<p>or</p>
+
+<p><div class=""snippet"" data-lang=""js"" data-hide=""false"" data-console=""false"" data-babel=""false"">
+<div class=""snippet-code"">
+<pre class=""snippet-code-js lang-js prettyprint-override""><code>function myJsFunc() {
+    alert(""myJsFunc"");
+}</code></pre>
+<pre class=""snippet-code-html lang-html prettyprint-override""><code> &lt;a href=""javascript:void(0)"" onclick=""myJsFunc();""&gt;Run JavaScript Code&lt;/a&gt;</code></pre>
+</div>
+</div>
+</p>
+","<javascript><html><performance><optimization><href>","134845","4343","2447266","1270","55"
+"How do I parse command line arguments in Bash?","<p>Say, I have a script that gets called with this line:</p>
+<pre><code>./myscript -vfd ./foo/bar/someFile -o /fizz/someOtherFile
+</code></pre>
+<p>or this one:</p>
+<pre><code>./myscript -v -f -d -o /fizz/someOtherFile ./foo/bar/someFile 
+</code></pre>
+<p>What's the accepted way of parsing this such that in each case (or some combination of the two) <code>$v</code>, <code>$f</code>, and  <code>$d</code> will all be set to <code>true</code> and <code>$outFile</code> will be equal to <code>/fizz/someOtherFile</code>?</p>
+","<bash><command-line><scripting><arguments><getopts>","192249","2408","1895245","1221","40"
+"How do I read / convert an InputStream into a String in Java?","<p>If you have a <code>java.io.InputStream</code> object, how should you process that object and produce a <code>String</code>?</p>
+
+<hr>
+
+<p>Suppose I have an <code>InputStream</code> that contains text data, and I want to convert it to a <code>String</code>, so for example I can write that to a log file.</p>
+
+<p>What is the easiest way to take the <code>InputStream</code> and convert it to a <code>String</code>?</p>
+
+<pre><code>public String convertStreamToString(InputStream is) {
+    // ???
+}
+</code></pre>
+","<java><string><io><stream><inputstream>","309424","4558","2481984","1305","62"
+"What is the scope of variables in JavaScript?","<p>What is the scope of variables in javascript? Do they have the same scope inside as opposed to outside a function? Or does it even matter? Also, where are the variables stored if they are defined globally?</p>
+","<javascript><function><variables><scope><var>","500431","2170","561088","1059","27"
+"Understanding Python super() with __init__() methods","<p>Why is <code>super()</code> used?</p>
+<p>Is there a difference between using <code>Base.__init__</code> and <code>super().__init__</code>?</p>
+<pre><code>class Base(object):
+    def __init__(self):
+        print &quot;Base created&quot;
+        
+class ChildA(Base):
+    def __init__(self):
+        Base.__init__(self)
+        
+class ChildB(Base):
+    def __init__(self):
+        super(ChildB, self).__init__()
+        
+ChildA() 
+ChildB()
+</code></pre>
+","<python><class><oop><inheritance><super>","576169","3050","2305957","1125","7"
+"How to change the output color of echo in Linux","<p>I am trying to print a text in the terminal using echo command. </p>
+
+<p>I want to print the text in a red color. How can I do that?</p>
+","<linux><bash><command-line><echo><terminal-color>","5947742","2457","1607189","1215","33"
+"What is The Rule of Three?","<ul>
+<li>What does <em>copying an object</em> mean?</li>
+<li>What are the <em>copy constructor</em> and the <em>copy assignment operator</em>?</li>
+<li>When do I need to declare them myself?</li>
+<li>How can I prevent my objects from being copied?</li>
+</ul>
+","<c++><copy-constructor><assignment-operator><c++-faq><rule-of-three>","4172722","2423","345248","1385","8"
+"How to generate a self-signed SSL certificate using OpenSSL?","<p>I'm adding HTTPS support to an embedded Linux device. I have tried to generate a self-signed certificate with these steps:</p>
+
+<pre><code>openssl req -new &gt; cert.csr
+openssl rsa -in privkey.pem -out key.pem
+openssl x509 -in cert.csr -out cert.pem -req -signkey key.pem -days 1001
+cat key.pem&gt;&gt;cert.pem
+</code></pre>
+
+<p>This works, but I get some errors with, for example, Google Chrome:</p>
+
+<blockquote>
+  <p>This is probably not the site you are looking for!<br>
+  The site's security certificate is not trusted!</p>
+</blockquote>
+
+<p>Am I missing something? Is this the correct way to build a self-signed certificate?</p>
+","<ssl><openssl><certificate><ssl-certificate><x509certificate>","10175812","1776","2486159","1044","22"
+"How to lazy load images in ListView in Android","<p>I am using a <code>ListView</code> to display some images and captions associated with those images. I am getting the images from the Internet. Is there a way to lazy load images so while the text displays, the UI is not blocked and images are displayed as they are downloaded? </p>
+
+<p>The total number of images is not fixed.</p>
+","<android><image><listview><url><universal-image-loader>","541966","2052","571558","1094","41"
+"Ignore files that have already been committed to a Git repository","<p>I have an already initialized Git repository that I added a <code>.gitignore</code> file to. How can I refresh the file index so the files I want ignored get ignored?</p>
+","<git><caching><version-control><gitignore><git-rm>","1139762","2726","833697","1482","21"
+"What is the difference between const int*, const int * const, and int const *?","<p>I always mess up how to use <code>const int*</code>, <code>const int * const</code>, and <code>int const *</code> correctly. Is there a set of rules defining what you can and cannot do?</p>
+
+<p>I want to know all the do's and all don'ts in terms of assignments, passing to the functions, etc.</p>
+","<c++><c><pointers><constants><c++-faq>","1143262","1678","646008","1332","22"
+"Daylight saving time and time zone best practices","<p>I am hoping to make this question and the answers to it the definitive guide to dealing with daylight saving time, in particular for dealing with the actual change overs. </p>
+
+<p><strong>If you have anything to add, please do</strong></p>
+
+<p>Many systems are dependent on keeping accurate time, the problem is with changes to time due to daylight savings - moving the clock forward or backwards.</p>
+
+<p>For instance, one has business rules in an order taking system that depend on the time of the order - if the clock changes, the rules might not be as clear. How should the time of the order be persisted? There are of course an endless number of scenarios - this one is simply an illustrative one.</p>
+
+<ul>
+<li>How have you dealt with the daylight saving issue? </li>
+<li>What assumptions are part of your solution? (looking for context here)</li>
+</ul>
+
+<p>As important, if not more so:</p>
+
+<ul>
+<li>What did you try that did not work? </li>
+<li>Why did it not work?</li>
+</ul>
+
+<p>I would be interested in programming, OS, data persistence and other pertinent aspects of the issue.</p>
+
+<p>General answers are great, but I would also like to see details especially if they are only available on one platform.</p>
+","<datetime><timezone><utc><dst><datetimeoffset>","2532729","2153","468858","1712","30"
+"Grouping functions (tapply, by, aggregate) and the *apply family","<p>Whenever I want to do something ""map""py in R, I usually try to use a function in the <code>apply</code> family. </p>
+
+<p>However, I've never quite understood the differences between them -- how {<code>sapply</code>, <code>lapply</code>, etc.} apply the function to the input/grouped input, what the output will look like, or even what the input can be -- so I often just go through them all until I get what I want.</p>
+
+<p>Can someone explain how to use which one when?</p>
+
+<p>My current (probably incorrect/incomplete) understanding is...</p>
+
+<ol>
+<li><p><code>sapply(vec, f)</code>: input is a vector. output is a vector/matrix, where element <code>i</code> is <code>f(vec[i])</code>, giving you a matrix if <code>f</code> has a multi-element output</p></li>
+<li><p><code>lapply(vec, f)</code>: same as <code>sapply</code>, but output is a list?</p></li>
+<li><code>apply(matrix, 1/2, f)</code>: input is a matrix. output is a vector, where element <code>i</code> is f(row/col i of the matrix)</li>
+<li><code>tapply(vector, grouping, f)</code>: output is a matrix/array, where an element in the matrix/array is the value of <code>f</code> at a grouping <code>g</code> of the vector, and <code>g</code> gets pushed to the row/col names</li>
+<li><code>by(dataframe, grouping, f)</code>: let <code>g</code> be a grouping. apply <code>f</code> to each column of the group/dataframe. pretty print the grouping and the value of <code>f</code> at each column.</li>
+<li><code>aggregate(matrix, grouping, f)</code>: similar to <code>by</code>, but instead of pretty printing the output, aggregate sticks everything into a dataframe.</li>
+</ol>
+
+<p>Side question: I still haven't learned plyr or reshape -- would <code>plyr</code> or <code>reshape</code> replace all of these entirely?</p>
+","<r><lapply><sapply><tapply><r-faq>","3505701","1129","429357","1213","10"
+"What is the difference between ""let"" and ""var""?","<p>ECMAScript 6 introduced <a href=""https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"" rel=""noreferrer"">the <code>let</code> statement</a>.</p>
+<p>I've heard that it's described as a local variable, but I'm still not quite sure how it behaves differently than the var keyword.</p>
+<p>What are the differences? When should <code>let</code> be used instead of <code>var</code>?</p>
+","<javascript><scope><ecmascript-6><var><let>","762011","5887","2047259","1564","39"
+"How do I modify the URL without reloading the page?","<p>Is there a way I can modify the URL of the current page without reloading the page?</p>
+<p>I would like to access the portion <strong>before</strong> the # hash if possible.</p>
+<p>I only need to change the portion <strong>after</strong> the domain, so it's not like I'm violating cross-domain policies.</p>
+<pre><code> window.location.href = &quot;www.mysite.com/page2.php&quot;;  // this reloads
+</code></pre>
+","<javascript><html><url><url-rewriting><friendly-url>","824349","2861","1849509","1018","20"
+"Why is ""using namespace std;"" considered bad practice?","<p>I have heard <code>using namespace std;</code> is bad practice, and that I should use <code>std::cout</code> and <code>std::cin</code> directly instead.
+Why is this? Does it risk declaring variables that share the same name as something in the <code>std</code> namespace?</p>
+","<c++><namespaces><std><using-directives><c++-faq>","1452721","3168","1085903","1192","41"
+"Why is the Android emulator so slow? How can we speed up the Android emulator?","<p>I have got a <strong>2.67</strong>  GHz Celeron processor, and <strong>1.21</strong>  GB of RAM on a <strong>x86</strong> Windows <strong>XP</strong> Professional machine.</p>
+<p>My understanding is that the <strong>Android Emulator</strong> should start fairly quickly on such a machine, but for me, it doesn't. I have followed all the instructions in setting up the IDE, SDKs, JDKs and such and have had some success in starting the emulator quickly, but that is very rare. How can I, if possible, fix this problem?</p>
+<p>Even if it starts and loads the home screen, it is very sluggish. I have tried the <a href=""https://en.wikipedia.org/wiki/Eclipse_%28software%29"" rel=""noreferrer"">Eclipse IDE</a> in <a href=""https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases"" rel=""noreferrer"">version 3.5</a> (Galileo) and <a href=""https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases"" rel=""noreferrer"">3.4</a> (Ganymede).</p>
+","<android><performance><android-emulator><genymotion><qemu>","1554099","3492","1107303","1115","77"
+"What is the ""-->"" operator in C++?","<p>After reading <a href=""http://groups.google.com/group/comp.lang.c++.moderated/msg/33f173780d58dd20"" rel=""noreferrer"">Hidden Features and Dark Corners of C++/STL</a> on <code>comp.lang.c++.moderated</code>, I was completely surprised that the following snippet compiled and worked in both Visual Studio 2008 and G++ 4.4.</p>
+<p>Here's the code:</p>
+<pre><code>#include &lt;stdio.h&gt;
+int main()
+{
+    int x = 10;
+    while (x --&gt; 0) // x goes to 0
+    {
+        printf(&quot;%d &quot;, x);
+    }
+}
+</code></pre>
+<p>Output:</p>
+<pre><code>9 8 7 6 5 4 3 2 1 0
+</code></pre>
+<p>I'd assume this is C, since it works in GCC as well. Where is this defined in the standard, and where has it come from?</p>
+","<c++><c><operators><code-formatting><standards-compliance>","1642028","9835","934421","2227","28"
+"How do I delete a Git branch locally and remotely?","<h4>Failed Attempts to Delete a Remote Branch:</h4>
+<pre class=""lang-bash prettyprint-override""><code>$ git branch -d remotes/origin/bugfix
+error: branch 'remotes/origin/bugfix' not found.
+
+$ git branch -d origin/bugfix
+error: branch 'origin/bugfix' not found.
+
+$ git branch -rd origin/bugfix
+Deleted remote branch origin/bugfix (was 2a14ef7).
+
+$ git push
+Everything up-to-date
+
+$ git pull
+From github.com:gituser/gitproject
+
+* [new branch] bugfix -&gt; origin/bugfix
+Already up-to-date.
+</code></pre>
+<p>How do I properly delete the <code>remotes/origin/bugfix</code> branch both locally and remotely?</p>
+","<git><version-control><git-branch><git-push><git-remote>","2003505","19505","10228989","5940","42"
+"What is the difference between px, dip, dp, and sp?","<p>What is the difference between the units of measure
+px, dip, dp, and sp?</p>
+","<android><android-layout><user-interface><dimension><units-of-measurement>","2025282","6250","1419382","2047","35"
+"C++11 introduced a standardized memory model. What does it mean? And how is it going to affect C++ programming?","<p>C++11 introduced a standardized memory model, but what exactly does that mean? And how is it going to affect C++ programming?</p>
+<p><a href=""http://www.theregister.co.uk/2011/06/11/herb_sutter_next_c_plus_plus/page2.html"" rel=""noreferrer"">This article</a> (by <strong>Gavin Clarke</strong> who quotes <strong><a href=""https://en.wikipedia.org/wiki/Herb_Sutter"" rel=""noreferrer"">Herb Sutter</a></strong>) says that,</p>
+<blockquote>
+<p>The memory model means that C++ code
+now has a standardized library to call
+regardless of who made the compiler
+and on what platform it's running.
+There's a standard way to control how
+different threads talk to the
+processor's memory.</p>
+<p>&quot;When you are talking about splitting
+[code] across different cores that's
+in the standard, we are talking about
+the memory model. We are going to
+optimize it without breaking the
+following assumptions people are going
+to make in the code,&quot; <strong>Sutter</strong> said.</p>
+</blockquote>
+<p>Well, I can <em>memorize</em> this and similar paragraphs available online (as I've had my own memory model since birth :P) and can even post as an answer to questions asked by others, but to be honest, I don't exactly understand this.</p>
+<p>C++ programmers used to develop multi-threaded applications even before, so how does it matter if it's POSIX threads, or Windows threads, or C++11 threads? What are the benefits? I want to understand the low-level details.</p>
+<p>I also get this feeling that the C++11 memory model is somehow related to C++11 multi-threading support, as I often see these two together. If it is, how exactly? Why should they be related?</p>
+<p>I don't know how the internals of multi-threading work, and what memory model means in general.</p>
+","<c++><multithreading><c++11><language-lawyer><memory-model>","6319146","2130","275217","1245","8"
+"How do I update or sync a forked repository on GitHub?","<p>I forked a project, made changes, and created a pull request which was accepted. New commits were later added to the repository. How do I get those commits into my fork?</p>
+","<git><github><synchronization><repository><git-fork>","7244321","4466","1100797","2265","31"
+"For-each over an array in JavaScript","<p>How can I loop through all the entries in an array using JavaScript?</p>
+","<javascript><arrays><loops><foreach><iteration>","9329446","5441","5021849","1621","40"
+"Why is processing a sorted array faster than processing an unsorted array?","<p>Here is a piece of C++ code that shows some very peculiar behavior. For some strange reason, sorting the data (<em>before</em> the timed region) miraculously makes the loop almost six times faster.</p>
+<pre class=""lang-cpp prettyprint-override""><code>#include &lt;algorithm&gt;
+#include &lt;ctime&gt;
+#include &lt;iostream&gt;
+
+int main()
+{
+    // Generate data
+    const unsigned arraySize = 32768;
+    int data[arraySize];
+
+    for (unsigned c = 0; c &lt; arraySize; ++c)
+        data[c] = std::rand() % 256;
+
+    // !!! With this, the next loop runs faster.
+    std::sort(data, data + arraySize);
+
+    // Test
+    clock_t start = clock();
+    long long sum = 0;
+    for (unsigned i = 0; i &lt; 100000; ++i)
+    {
+        for (unsigned c = 0; c &lt; arraySize; ++c)
+        {   // Primary loop
+            if (data[c] &gt;= 128)
+                sum += data[c];
+        }
+    }
+
+    double elapsedTime = static_cast&lt;double&gt;(clock()-start) / CLOCKS_PER_SEC;
+
+    std::cout &lt;&lt; elapsedTime &lt;&lt; '\n';
+    std::cout &lt;&lt; &quot;sum = &quot; &lt;&lt; sum &lt;&lt; '\n';
+}
+</code></pre>
+<ul>
+<li>Without <code>std::sort(data, data + arraySize);</code>, the code runs in 11.54 seconds.</li>
+<li>With the sorted data, the code runs in 1.93 seconds.</li>
+</ul>
+<p>(Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)</p>
+<hr />
+<p>Initially, I thought this might be just a language or compiler anomaly, so I tried Java:</p>
+<pre class=""lang-java prettyprint-override""><code>import java.util.Arrays;
+import java.util.Random;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        // Generate data
+        int arraySize = 32768;
+        int data[] = new int[arraySize];
+
+        Random rnd = new Random(0);
+        for (int c = 0; c &lt; arraySize; ++c)
+            data[c] = rnd.nextInt() % 256;
+
+        // !!! With this, the next loop runs faster
+        Arrays.sort(data);
+
+        // Test
+        long start = System.nanoTime();
+        long sum = 0;
+        for (int i = 0; i &lt; 100000; ++i)
+        {
+            for (int c = 0; c &lt; arraySize; ++c)
+            {   // Primary loop
+                if (data[c] &gt;= 128)
+                    sum += data[c];
+            }
+        }
+
+        System.out.println((System.nanoTime() - start) / 1000000000.0);
+        System.out.println(&quot;sum = &quot; + sum);
+    }
+}
+</code></pre>
+<p>With a similar but less extreme result.</p>
+<hr />
+<p>My first thought was that sorting brings the data into the <a href=""https://en.wikipedia.org/wiki/CPU_cache"" rel=""noreferrer"">cache</a>, but then I thought how silly that was because the array was just generated.</p>
+<ul>
+<li>What is going on?</li>
+<li>Why is processing a sorted array faster than processing an unsorted array?</li>
+</ul>
+<p>The code is summing up some independent terms, so the order should not matter.</p>
+<hr />
+<p><strong>Related / followup Q&amp;As</strong> about the same effect with different / later compilers and options:</p>
+<ul>
+<li><a href=""https://stackoverflow.com/q/66521344"">Why is processing an unsorted array the same speed as processing a sorted array with modern x86-64 clang?</a></li>
+<li><a href=""https://stackoverflow.com/q/28875325"">gcc optimization flag -O3 makes code slower than -O2</a></li>
+</ul>
+","<java><c++><performance><cpu-architecture><branch-prediction>","11227809","26600","1742508","11642","27"
+"How do I push a new local branch to a remote Git repository and track it too?","<p>How do I:</p>
+<ol>
+<li><p>Create a local branch from another branch (via <code>git branch</code> or <code>git checkout -b</code>).</p>
+</li>
+<li><p>Push the local branch
+to the remote repository (i.e. publish), but make it
+trackable so that <code>git pull</code> and <code>git push</code> will work.</p>
+</li>
+</ol>
+","<git><repository><git-branch><git-push><git-remote>","2765421","5278","4969542","1558","17"
+"How to use java.net.URLConnection to fire and handle HTTP requests","<p>Use of <a href=""http://docs.oracle.com/javase/8/docs/api/java/net/URLConnection.html"" rel=""noreferrer""><code>java.net.URLConnection</code></a> is asked about pretty often here, and the <a href=""http://download.oracle.com/javase/tutorial/networking/urls/connecting.html"" rel=""noreferrer"">Oracle tutorial</a> is <em>too</em> concise about it.</p>
+<p>That tutorial basically only shows how to fire a <a href=""https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods"" rel=""noreferrer"">GET</a> request and read the response. It doesn't explain anywhere how to use it to, among others, perform a <a href=""https://en.wikipedia.org/wiki/POST_%28HTTP%29"" rel=""noreferrer"">POST</a> request, set request headers, read response headers, deal with cookies, submit a HTML form, upload a file, etc.</p>
+<p>So, how can I use <code>java.net.URLConnection</code> to fire and handle &quot;advanced&quot; HTTP requests?</p>
+","<java><http><httprequest><httpurlconnection><urlconnection>","2793150","2091","1158113","1369","12"
+"What's the difference between INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL JOIN?","<p>What's the difference between <code>INNER JOIN</code>, <code>LEFT JOIN</code>, <code>RIGHT JOIN</code> and <code>FULL JOIN</code> 
+in <strong><em>MySQL</em></strong>?</p>
+","<mysql><sql><join><inner-join><outer-join>","5706437","2068","1979904","1252","3"
+"Reference — What does this symbol mean in PHP?","<h3>What is this?</h3>
+<p>This is a collection of questions that come up every now and then about syntax in PHP. This is also a Community Wiki, so everyone is invited to participate in maintaining this list.</p>
+<h3>Why is this?</h3>
+<p>It used to be hard to find questions about operators and other syntax tokens.¹<br />
+The main idea is to have links to existing questions on Stack Overflow, so it's easier for us to reference them, not to copy over content from the PHP Manual.</p>
+<p>Note: Since January 2013, Stack Overflow <a href=""https://meta.stackexchange.com/questions/160100/a-new-search-engine-for-stack-exchange"">does support special characters</a>. Just surround the search terms by quotes, e.g. <a href=""https://stackoverflow.com/search?q=%5Bphp%5D%20%22===%22%20vs%20%22==%22""><code>[php] &quot;==&quot; vs &quot;===&quot;</code></a></p>
+<h3><strong>What should I do here?</strong></h3>
+<p>If you have been pointed here by someone because you have asked such a question, please find the particular syntax below. The linked pages to the <a href=""http://php.net/manual/en/index.php"" rel=""noreferrer"">PHP manual</a> along with the linked questions will likely answer your question then. If so, you are encouraged to upvote the answer. This list is not meant as a substitute for the help others provided.</p>
+<h2>The List</h2>
+<p>If your particular token is not listed below, you might find it in the <a href=""http://secure.php.net/manual/en/tokens.php"" rel=""noreferrer"">List of Parser Tokens</a>.</p>
+<hr />
+<p><code>&amp;</code> <a href=""http://secure.php.net/manual/en/language.operators.bitwise.php"" rel=""noreferrer"">Bitwise Operators</a> or <a href=""http://secure.php.net/manual/en/language.references.php"" rel=""noreferrer"">References</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1676897"">What does it mean to start a PHP function with an ampersand?</a></li>
+<li><a href=""https://stackoverflow.com/questions/600202"">Understanding PHP &amp; (ampersand, bitwise and) operator</a></li>
+<li><a href=""https://stackoverflow.com/questions/2209934/"">PHP &quot;&amp;&quot; operator</a></li>
+<li><a href=""https://stackoverflow.com/questions/2376348"">Difference between &amp; and &amp;&amp; in PHP</a></li>
+<li><a href=""https://stackoverflow.com/questions/1006652"">What does &quot;&amp;&quot; mean here in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2297592"">What does &quot;&amp;&quot; mean in this case?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2422907"">What does the &quot;&amp;&quot; sign mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2478149"">What does this signature mean (&amp;) in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3957584"">How does the &quot;&amp;&quot; operator work in a PHP function?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4705262"">What does &amp; in &amp;2 mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4705838"">When should I use a bitwise operator?</a></li>
+<li><a href=""https://stackoverflow.com/questions/21058439"">Is there ever a need to use ampersand in front of an object?</a> (&amp;$)</li>
+</ul>
+<hr />
+<p><code>=&amp;</code> <a href=""http://secure.php.net/manual/en/language.references.php"" rel=""noreferrer"">References</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1768343"">Reference assignment operator in PHP, =&amp;</a></li>
+<li><a href=""https://stackoverflow.com/questions/1367454"">What do the &quot;=&amp;&quot; and &quot;&amp;=&quot; operators in PHP mean?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3177342"">What do the &#39;&amp;=&#39; and &#39;=&amp;&#39; operators do?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2081806"">What does =&amp; mean in PHP?</a></li>
+</ul>
+<hr />
+<p><code>&amp;=</code> <a href=""http://secure.php.net/manual/en/language.operators.bitwise.php"" rel=""noreferrer"">Bitwise Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1367454"">What do the &quot;=&amp;&quot; and &quot;&amp;=&quot; operators in PHP mean?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3177342"">What do the &#39;&amp;=&#39; and &#39;=&amp;&#39; operators do?</a></li>
+</ul>
+<hr />
+<p><code>&amp;&amp;</code> <a href=""http://secure.php.net/manual/en/language.operators.logical.php"" rel=""noreferrer"">Logical Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2803321"">&#39;AND&#39; vs &#39;&amp;&amp;&#39; as operator</a></li>
+<li><a href=""https://stackoverflow.com/questions/2376348"">Difference between &amp; and &amp;&amp; in PHP</a></li>
+<li><a href=""https://stackoverflow.com/questions/4746865"">Is there any difference between &quot;and&quot; and &quot;&amp;&amp;&quot; operators in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4502092"">PHP - and / or keywords</a></li>
+</ul>
+<hr />
+<p><code>%</code> <a href=""http://secure.php.net/manual/en/language.operators.arithmetic.php"" rel=""noreferrer"">Arithmetic Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1934173"">What does the percent sign mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3204919"">What is the PHP operator % and how do I use it in real-world examples?</a></li>
+</ul>
+<hr />
+<p><code>!!</code> <a href=""http://secure.php.net/manual/en/language.operators.logical.php"" rel=""noreferrer"">Logical Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2127260"">Double not (!!) operator in PHP</a></li>
+</ul>
+<hr />
+<p><code>@</code> <a href=""http://secure.php.net/manual/en/language.operators.errorcontrol.php"" rel=""noreferrer"">Error Control Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1032161"">What is the use of the @ symbol in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3551527"">&#39;At&#39; symbol before variable name in PHP: @$_POST</a></li>
+<li><a href=""https://stackoverflow.com/questions/3984864"">PHP functions and @functions</a></li>
+<li><a href=""https://stackoverflow.com/questions/4872340"">Should I use @ in my PHP code?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3621215"">What does @ mean in PHP?</a></li>
+</ul>
+<hr />
+<p><code>?:</code> <a href=""http://php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary"" rel=""noreferrer"">Ternary Operator</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1080247"">What are the PHP operators &quot;?&quot; and &quot;:&quot; called and what do they do?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1993409"">?: operator (the &#39;Elvis operator&#39;) in PHP</a></li>
+<li><a href=""https://stackoverflow.com/questions/4055355"">Where can I read about conditionals done with &quot;?&quot; and &quot;:&quot; (colon)?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4210187"">Using PHP 5.3 ?: operator</a></li>
+</ul>
+<hr />
+<p><code>??</code> <a href=""https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.null-coalesce-op"" rel=""noreferrer"">Null Coalesce Operator</a> (since PHP 7)</p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/7278835"">C#&#39;s null coalescing operator (??) in PHP</a></li>
+</ul>
+<hr />
+<p><code>?string</code>
+<code>?int</code>
+<code>?array</code>
+<code>?bool</code>
+<code>?float</code> <a href=""https://www.php.net/manual/en/migration71.new-features.php"" rel=""noreferrer"">Nullable return type declaration</a> (since PHP 7.1)</p>
+<ul>
+<li><a href=""https://stackoverflow.com/a/54217328/250259"">Nullable return type declaration</a></li>
+<li><a href=""https://stackoverflow.com/a/48450841"">Nullable parameter type declaration</a></li>
+<li><a href=""https://stackoverflow.com/questions/48881489/php-method-argument-type-hinting-with-question-mark-type"">php method argument type hinting with question mark (?type)</a></li>
+</ul>
+<hr />
+<p><code>:</code> <a href=""http://secure.php.net/manual/en/control-structures.alternative-syntax.php"" rel=""noreferrer"">Alternative syntax for control structures</a>, <a href=""http://php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary"" rel=""noreferrer"">Ternary Operator</a>, <a href=""https://www.php.net/manual/en/language.types.declarations.php"" rel=""noreferrer"">Return Type Declaration</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2908095"">What is &quot;:&quot; in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4747761"">What does &quot;:&quot; mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/40346754"">Colon after method declaration?</a></li>
+</ul>
+<hr />
+<p><code>::</code> <a href=""http://secure.php.net/manual/en/language.oop5.paamayim-nekudotayim.php"" rel=""noreferrer"">Scope Resolution Operator</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2903564"">What do two colons mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2588298"">What&#39;s the meaning of the PHP token name T_PAAMAYIM_NEKUDOTAYIM?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3173501"">What&#39;s the difference between :: (double colon) and -&gt; (arrow) in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1912902"">What exactly are late static bindings in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4120755"">static::staticFunctionName()</a></li>
+<li><a href=""https://stackoverflow.com/questions/8734823"">Unexpected T_PAAMAYIM_NEKUDOTAYIM, expecting T_NS_Separator</a></li>
+</ul>
+<hr />
+<p><code>\</code> <a href=""http://php.net/namespaces"" rel=""noreferrer"">Namespaces</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/10788400"">Backslash in PHP -- what does it mean?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4790020"">What does a \ (backslash) do in PHP (5.3+)?</a></li>
+</ul>
+<hr />
+<p><code>-&gt;</code> <a href=""http://secure.php.net/manual/en/language.oop5.php"" rel=""noreferrer"">Classes And Objects</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2588149"">What is the &quot;-&gt;&quot; PHP operator called?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3037526"">Where do we use the object operator &quot;-&gt;&quot; in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/3173501"">What&#39;s the difference between :: (double colon) and -&gt; (arrow) in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2316370"">What does the PHP syntax $var1-&gt;$var2 mean?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4502587"">What does &quot;-&gt;&quot; mean/refer to in PHP?</a></li>
+</ul>
+<hr />
+<p><code>=&gt;</code> <a href=""http://secure.php.net/manual/en/language.types.array.php"" rel=""noreferrer"">Arrays</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1241819"">What does &quot;=&gt;&quot; mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1655336"">Use of =&gt; in PHP</a></li>
+<li><a href=""https://stackoverflow.com/questions/4758791"">What does $k =&gt; $v in foreach($ex as $k=&gt;$v) mean?</a></li>
+</ul>
+<hr />
+<p><code>^</code> <a href=""http://secure.php.net/manual/en/language.operators.bitwise.php"" rel=""noreferrer"">Bitwise Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2674920"">How does the bitwise operator XOR (&#39;^&#39;) work?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2724936"">What does ^ mean in PHP?</a></li>
+</ul>
+<hr />
+<p><code>&gt;&gt;</code> <a href=""http://secure.php.net/manual/en/language.operators.bitwise.php"" rel=""noreferrer"">Bitwise Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2790329"">What does &gt;&gt; mean in PHP?</a></li>
+</ul>
+<hr />
+<p><code>&lt;&lt;</code> <a href=""http://secure.php.net/manual/en/language.operators.bitwise.php"" rel=""noreferrer"">Bitwise Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/9718689/strange-print-behaviour-in-php"">Strange print behaviour in PHP?</a></li>
+</ul>
+<hr />
+<p><code>&lt;&lt;&lt;</code> <a href=""http://php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc"" rel=""noreferrer"">Heredoc or Nowdoc</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/5539669"">What does &lt;&lt;&lt;END mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1048481"">PHP expression &lt;&lt;&lt;EOB</a></li>
+<li><a href=""https://stackoverflow.com/questions/3700042"">In PHP, what does &quot;&lt;&lt;&lt;&quot; represent?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2090081"">Using &lt;&lt;&lt;CON in PHP</a></li>
+<li><a href=""https://stackoverflow.com/questions/2333779"">What&#39;s this kind of syntax in PHP?</a></li>
+</ul>
+<hr />
+<p><code>=</code> <a href=""http://secure.php.net/manual/en/language.operators.assignment.php"" rel=""noreferrer"">Assignment Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2063480"">The 3 different equals</a></li>
+</ul>
+<hr />
+<p><code>==</code> <a href=""http://secure.php.net/manual/en/language.operators.comparison.php"" rel=""noreferrer"">Comparison Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/80646"">How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1663451"">PHP != and == operators</a></li>
+<li><a href=""https://stackoverflow.com/questions/2063480"">The 3 different equals</a></li>
+<li><a href=""https://stackoverflow.com/questions/15813490/"">Type-juggling and (strict) greater/lesser-than comparisons in PHP</a></li>
+</ul>
+<hr />
+<p><code>===</code> <a href=""http://secure.php.net/manual/en/language.operators.comparison.php"" rel=""noreferrer"">Comparison Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1117967"">What does &quot;===&quot; mean?</a></li>
+<li><a href=""https://stackoverflow.com/questions/80646"">How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ?</a></li>
+<li><a href=""https://stackoverflow.com/questions/2063480"">The 3 different equals</a></li>
+<li><a href=""https://stackoverflow.com/questions/15813490/"">Type-juggling and (strict) greater/lesser-than comparisons in PHP</a></li>
+</ul>
+<hr />
+<p><code>!==</code> <a href=""http://secure.php.net/manual/en/language.operators.comparison.php"" rel=""noreferrer"">Comparison Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1298083"">What does !== comparison operator in PHP mean?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1139154"">Is there a difference between !== and != in PHP?</a></li>
+</ul>
+<hr />
+<p><code>!=</code> <a href=""http://secure.php.net/manual/en/language.operators.comparison.php"" rel=""noreferrer"">Comparison Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1663451"">PHP != and == operators</a></li>
+<li><a href=""https://stackoverflow.com/questions/1139154"">Is there a difference between !== and != in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/6356826"">comparing, !== versus !=</a></li>
+<li><a href=""https://stackoverflow.com/questions/9671785/what-is-the-difference-between-and"">What is the difference between &lt;&gt; and !=</a></li>
+</ul>
+<hr />
+<p><code>&lt;&gt;</code> <a href=""http://secure.php.net/manual/en/language.operators.comparison.php"" rel=""noreferrer"">Comparison Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/249312"">PHP operator &lt;&gt;</a></li>
+<li><a href=""https://stackoverflow.com/questions/589391"">PHP&#39;s &lt;&gt; operator</a></li>
+<li><a href=""https://stackoverflow.com/questions/9671785"">What is the difference between &lt;&gt; and !=</a></li>
+<li><a href=""https://stackoverflow.com/questions/15813490/"">Type-juggling and (strict) greater/lesser-than comparisons in PHP</a></li>
+</ul>
+<hr />
+<p><code>&lt;=&gt;</code> <a href=""http://secure.php.net/manual/en/language.operators.comparison.php"" rel=""noreferrer"">Comparison Operators</a> (since PHP 7.0)</p>
+<ul>
+<li><a href=""https://stackoverflow.com/a/31298778"">Spaceship (three way comparison) operator</a></li>
+</ul>
+<hr />
+<p><code>|</code> <a href=""http://secure.php.net/manual/en/language.operators.bitwise.php"" rel=""noreferrer"">Bitwise Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2233835"">What is the difference between the | and || operators?</a></li>
+<li><a href=""https://stackoverflow.com/questions/13811922"">What Does Using A Single Pipe &#39;|&#39; In A Function Argument Do?</a></li>
+</ul>
+<hr />
+<p><code>||</code> <a href=""http://secure.php.net/manual/en/language.operators.logical.php"" rel=""noreferrer"">Logical Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2233835"">What is the difference between the | and || operators?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4502092"">PHP - and / or keywords</a></li>
+<li><a href=""https://stackoverflow.com/questions/5666741"">What exactly does || mean?</a></li>
+<li><a href=""https://stackoverflow.com/questions/12213283"">The behaviour of the or operator in PHP</a></li>
+</ul>
+<hr />
+<p><code>~</code> <a href=""http://secure.php.net/manual/en/language.operators.bitwise.php"" rel=""noreferrer"">Bitwise Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1967360"">What does this ~ operator mean here?</a></li>
+</ul>
+<hr />
+<p><code>+</code> <a href=""http://secure.php.net/manual/en/language.operators.arithmetic.php"" rel=""noreferrer"">Arithmetic Operators</a>, <a href=""http://secure.php.net/manual/en/language.operators.array.php"" rel=""noreferrer"">Array Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2140090"">+ operator for array in PHP?</a></li>
+</ul>
+<hr />
+<p><code>+=</code> and <code>-=</code> <a href=""http://secure.php.net/manual/en/language.operators.assignment.php"" rel=""noreferrer"">Assignment Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/542995"">What is += used for?</a></li>
+<li><a href=""https://stackoverflow.com/questions/7140158"">What does `$page -= 1` in my PHP document mean?</a></li>
+</ul>
+<hr />
+<p><code>++</code> and <code>--</code> <a href=""http://secure.php.net/manual/en/language.operators.increment.php"" rel=""noreferrer"">Incrementing/Decrementing Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1968371"">Understanding Incrementing</a></li>
+<li><a href=""https://stackoverflow.com/a/3737177"">Answer below</a></li>
+</ul>
+<hr />
+<p><code>.=</code> <a href=""http://secure.php.net/manual/en/language.operators.assignment.php"" rel=""noreferrer"">Assignment Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2202331"">What is the difference between .= and += in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1241432"">To understand a line of PHP</a></li>
+</ul>
+<hr />
+<p><code>.</code> <a href=""http://secure.php.net/manual/en/language.operators.string.php"" rel=""noreferrer"">String Operators</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1466408"">Difference between period and comma when concatenating with echo versus return?</a></li>
+<li><a href=""https://stackoverflow.com/questions/6484968"">What does a . (dot) do in PHP?</a></li>
+</ul>
+<hr />
+<p><code>,</code> <a href=""http://php.net/manual/en/functions.arguments.php"" rel=""noreferrer"">Function Arguments</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1466408"">Difference between period and comma when concatenating with echo versus return?</a></li>
+</ul>
+<p><code>,</code> <a href=""http://php.net/manual/en/language.variables.scope.php"" rel=""noreferrer"">Variable Declarations</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/41383218"">What do commas mean in a variable declaration?</a></li>
+</ul>
+<hr />
+<p><code>$$</code> <a href=""http://php.net/manual/en/language.variables.variable.php"" rel=""noreferrer"">Variable Variables</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/2715654"">What does $$ (dollar dollar or double dollar) mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4169882"">what is &quot;$$&quot; in PHP</a></li>
+<li><a href=""https://stackoverflow.com/questions/4891872"">$function() and $$variable</a></li>
+</ul>
+<hr />
+<p><code>`</code> <a href=""http://php.net/manual/en/language.operators.execution.php"" rel=""noreferrer"">Execution Operator</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/6002296"">What are the backticks `` called?</a></li>
+</ul>
+<hr />
+<p><code>&lt;?=</code> <a href=""http://php.net/manual/en/ini.core.php#ini.short-open-tag"" rel=""noreferrer"">Short Open Tags</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/1963901"">What does this symbol mean in PHP &lt;?=</a></li>
+<li><a href=""https://stackoverflow.com/questions/2020445"">What does &#39;&lt;?=&#39; mean in PHP?</a></li>
+<li><a href=""https://stackoverflow.com/questions/1959256/what-does-mean"">What does &lt;?= mean?</a></li>
+</ul>
+<hr />
+<p><code>[]</code> <a href=""http://secure.php.net/manual/en/language.types.array.php"" rel=""noreferrer"">Arrays</a> (short syntax since PHP 5.4)</p>
+<ul>
+<li><a href=""https://stackoverflow.com/q/20709055/2758197"">PHP arrays... What is/are the meaning(s) of an empty bracket?</a></li>
+<li><a href=""https://stackoverflow.com/questions/6933345"">What is the meaning of []</a></li>
+<li><a href=""https://stackoverflow.com/questions/2431629"">Php array_push() vs myArray[]</a></li>
+<li><a href=""https://stackoverflow.com/questions/3908576"">What does [] mean when reading from a PHP array?</a></li>
+<li><a href=""https://stackoverflow.com/questions/4271874"">Shorthand for arrays: literal <code>$var = []</code> empty array</a></li>
+</ul>
+<hr />
+<p><code>&lt;?</code> <a href=""http://secure.php.net/manual/en/language.basic-syntax.php"" rel=""noreferrer"">Opening and Closing tags</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/200640"">Are PHP short tags acceptable to use?</a></li>
+</ul>
+<hr />
+<p><code>..</code> Double-dot character range</p>
+<ul>
+<li><a href=""https://stackoverflow.com/q/72865138/2943403"">Native PHP functions that allow double-dot range syntax</a></li>
+</ul>
+<hr />
+<p><code>...</code> <a href=""http://php.net/manual/en/functions.arguments.php#functions.variable-arg-list"" rel=""noreferrer"">Argument unpacking</a> (since PHP 5.6)</p>
+<hr />
+<p><code>**</code> <a href=""http://secure.php.net/manual/en/migration56.new-features.php#migration56.new-features.exponentiation"" rel=""noreferrer"">Exponentiation</a> (since PHP 5.6)</p>
+<hr />
+<p><code>#</code> <a href=""http://php.net/manual/en/language.basic-syntax.comments.php"" rel=""noreferrer"">One-line shell-style comment</a></p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/9093609/can-i-use-hashes-for-comments-in-php"">Can I use hashes for comments in PHP?</a></li>
+</ul>
+<hr />
+<p><code>?-&gt;</code> <a href=""https://stackoverflow.com/a/62178856/250259"">NullSafe Operator Calls</a> (since PHP 8.0)</p>
+<ul>
+<li><a href=""https://stackoverflow.com/questions/12351737/is-there-a-nullsafe-operator-in-php"">Is there a &quot;nullsafe operator&quot; in PHP?</a></li>
+</ul>
+<hr />
+","<php><arguments><operators><symbols><semantics>","3737139","4957","788868","3053","24"
+"How to find all files containing specific text (string) on Linux","<p>How do I find all files containing a specific string of text within their file contents?</p>
+<p>The following doesn't work. It seems to display every single file in the system.</p>
+<pre class=""lang-bash prettyprint-override""><code>find / -type f -exec grep -H 'text-to-find-here' {} \;
+</code></pre>
+","<linux><text><grep><directory><find>","16956810","6875","9333252","3264","53"
+"NPM vs. Bower vs. Browserify vs. Gulp vs. Grunt vs. Webpack","<p>I'm trying to summarize my knowledge about the most popular JavaScript package managers, bundlers, and task runners. Please correct me if I'm wrong:</p>
+
+<ul>
+<li><code>npm</code> &amp; <code>bower</code> are package managers. They just download the dependencies and don't know how to build projects on their own. What they know is to call <code>webpack</code>/<code>gulp</code>/<code>grunt</code> after fetching all the dependencies.</li>
+<li><code>bower</code> is like <code>npm</code>, but builds a flattened dependency trees (unlike <code>npm</code> which does it recursively). Meaning <code>npm</code> fetches the dependencies for each dependency (may fetch the same a few times), while <code>bower</code> expects you to manually include sub-dependencies. Sometimes <code>bower</code> and <code>npm</code> are used together for front-end and back-end respectively (since each megabyte might matter in front-end).</li>
+<li><code>grunt</code> and <code>gulp</code> are task runners to automate everything that can be automated (i.e. compile CSS/Sass, optimize images, make a bundle and minify/transpile it).</li>
+<li><code>grunt</code> vs. <code>gulp</code> (is like <code>maven</code> vs. <code>gradle</code> or configuration vs. code). Grunt is based on configuring separate independent tasks, each task opens/handles/closes file. Gulp requires less amount of code and is based on Node streams, which allows it to build pipe chains (w/o reopening the same file) and makes it faster. </li>
+<li><code>webpack</code> (<code>webpack-dev-server</code>) - for me it's a task runner with hot reloading of changes which allows you to forget about all JS/CSS watchers. </li>
+<li><code>npm</code>/<code>bower</code> + plugins may replace task runners. Their abilities often intersect so there are different implications if you need to use <code>gulp</code>/<code>grunt</code> over <code>npm</code> + plugins. But task runners are definitely better for complex tasks (e.g. ""on each build create bundle, transpile from ES6 to ES5, run it at all browsers emulators, make screenshots and deploy to dropbox through ftp"").</li>
+<li><code>browserify</code> allows packaging node modules for browsers. <code>browserify</code> vs <code>node</code>'s <code>require</code> is actually <a href=""https://addyosmani.com/writing-modular-js/"" rel=""noreferrer"">AMD vs CommonJS</a>.</li>
+</ul>
+
+<p><strong><em>Questions:</em></strong></p>
+
+<ol>
+<li><em>What is <code>webpack</code> &amp; <code>webpack-dev-server</code>?</em> Official documentation says it's a module bundler but for me it's just a task runner. <em>What's the difference?</em></li>
+<li><em>Where would you use <code>browserify</code>? Can't we do the same with node/ES6 imports?</em> </li>
+<li><em>When would you use <code>gulp</code>/<code>grunt</code> over <code>npm</code> + plugins?</em></li>
+<li><em>Please provide examples when you need to use a combination</em></li>
+</ol>
+","<gruntjs><npm><gulp><bower><webpack>","35062852","2041","303498","1380","7"
+"What are Long-Polling, Websockets, Server-Sent Events (SSE) and Comet?","<p>I have tried reading some articles, but I am not very clear on the concepts yet.</p>
+
+<p>Would someone like to take a shot at explaining to me what these technologies are:</p>
+
+<ol>
+<li>Long Polling</li>
+<li>Server-Sent Events</li>
+<li>Websockets</li>
+<li>Comet</li>
+</ol>
+
+<p>One thing that I came across every time was, the server keeps a connection open and pushes data to the client. How is the connection kept open, and how does the client get the pushed data? (How does the client use the data, maybe some code might help?)</p>
+
+<p>Now, which one of them should I use for a real-time app. I have been hearing a lot about websockets (with socket.io [a node.js library]) but why not PHP?</p>
+","<php><websocket><comet><long-polling><server-sent-events>","11077857","1154","203017","1025","4"
+"""Large data"" workflows using pandas","<p>I have tried to puzzle out an answer to this question for many months while learning pandas.  I use SAS for my day-to-day work and it is great for it's out-of-core support.  However, SAS is horrible as a piece of software for numerous other reasons.</p>
+
+<p>One day I hope to replace my use of SAS with python and pandas, but I currently lack an out-of-core workflow for large datasets.  I'm not talking about ""big data"" that requires a distributed network, but rather files too large to fit in memory but small enough to fit on a hard-drive.</p>
+
+<p>My first thought is to use <code>HDFStore</code> to hold large datasets on disk and pull only the pieces I need into dataframes for analysis.  Others have mentioned MongoDB as an easier to use alternative.  My question is this:</p>
+
+<p>What are some best-practice workflows for accomplishing the following:</p>
+
+<ol>
+<li>Loading flat files into a permanent, on-disk database structure</li>
+<li>Querying that database to retrieve data to feed into a pandas data structure</li>
+<li>Updating the database after manipulating pieces in pandas</li>
+</ol>
+
+<p>Real-world examples would be much appreciated, especially from anyone who uses pandas on ""large data"".</p>
+
+<p>Edit -- an example of how I would like this to work:</p>
+
+<ol>
+<li>Iteratively import a large flat-file and store it in a permanent, on-disk database structure.  These files are typically too large to fit in memory.</li>
+<li>In order to use Pandas, I would like to read subsets of this data (usually just a few columns at a time) that can fit in memory.</li>
+<li>I would create new columns by performing various operations on the selected columns.</li>
+<li>I would then have to append these new columns into the database structure.</li>
+</ol>
+
+<p>I am trying to find a best-practice way of performing these steps. Reading links about pandas and pytables it seems that appending a new column could be a problem.</p>
+
+<p>Edit -- Responding to Jeff's questions specifically:</p>
+
+<ol>
+<li>I am building consumer credit risk models. The kinds of data include phone, SSN and address characteristics; property values; derogatory information like criminal records, bankruptcies, etc... The datasets I use every day have nearly 1,000 to 2,000 fields on average of mixed data types: continuous, nominal and ordinal variables of both numeric and character data.  I rarely append rows, but I do perform many operations that create new columns.</li>
+<li>Typical operations involve combining several columns using conditional logic into a new, compound column. For example, <code>if var1 &gt; 2 then newvar = 'A' elif var2 = 4 then newvar = 'B'</code>.  The result of these operations is a new column for every record in my dataset.</li>
+<li>Finally, I would like to append these new columns into the on-disk data structure.  I would repeat step 2, exploring the data with crosstabs and descriptive statistics trying to find interesting, intuitive relationships to model.</li>
+<li>A typical project file is usually about 1GB.  Files are organized into such a manner where a row consists of a record of consumer data.  Each row has the same number of columns for every record.  This will always be the case.</li>
+<li>It's pretty rare that I would subset by rows when creating a new column.  However, it's pretty common for me to subset on rows when creating reports or generating descriptive statistics.  For example, I might want to create a simple frequency for a specific line of business, say Retail credit cards.  To do this, I would select only those records where the line of business = retail in addition to whichever columns I want to report on.  When creating new columns, however, I would pull all rows of data and only the columns I need for the operations.</li>
+<li>The modeling process requires that I analyze every column, look for interesting relationships with some outcome variable, and create new compound columns that describe those relationships.  The columns that I explore are usually done in small sets.  For example, I will focus on a set of say 20 columns just dealing with property values and observe how they relate to defaulting on a loan.  Once those are explored and new columns are created, I then move on to another group of columns, say college education, and repeat the process.  What I'm doing is creating candidate variables that explain the relationship between my data and some outcome.  At the very end of this process, I apply some learning techniques that create an equation out of those compound columns.</li>
+</ol>
+
+<p>It is rare that I would ever add rows to the dataset.  I will nearly always be creating new columns (variables or features in statistics/machine learning parlance).</p>
+","<python><mongodb><pandas><hdf5><large-data>","14262433","1166","343622","1047","16"
